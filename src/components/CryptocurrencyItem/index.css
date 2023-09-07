@@ -1,0 +1,55 @@
+/* Write your CSS code here */
+.cryptocurrency-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 10px;
+}
+.coin-type-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 65%;
+}
+.logo {
+  height: 30px;
+  margin-right: 20px;
+}
+.currency-type {
+  font-family: roboto;
+  font-weight: 500;
+  color: white;
+}
+.currencies-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 25%;
+}
+
+.currencies {
+  font-family: roboto;
+  font-weight: 500;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    height: 20px;
+    margin-right: 10px;
+  }
+  .currency-type {
+    font-size: 14px;
+  }
+  .coin-type-container {
+    width: 40%;
+  }
+  .currencies-container {
+    justify-content: space-between;
+    width: 40%;
+  }
+  .currencies {
+    font-size: 12px;
+  }
+}
